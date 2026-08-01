@@ -1,4 +1,4 @@
-/* 2026 十一 · 四选一 — design tokens & layout */
+/* 2026 十一 · 五选一 — design tokens & layout */
 
 :root {
   --bg: #f7f5f2;
@@ -11,6 +11,7 @@
   --accent-wuhan: #0f766e;
   --accent-fujian: #0369a1;
   --accent-chengyu: #c2410c;
+  --accent-jiangxi: #166534;
   --radius: 4px;
   --shadow: 0 12px 40px rgba(28, 25, 23, 0.08);
   --font-display: "Fraunces", "Songti SC", "Noto Serif SC", serif;
@@ -23,6 +24,7 @@ body[data-theme="shanxi"] { --accent: var(--accent-shanxi); }
 body[data-theme="wuhan"] { --accent: var(--accent-wuhan); }
 body[data-theme="fujian"] { --accent: var(--accent-fujian); }
 body[data-theme="chengyu"] { --accent: var(--accent-chengyu); }
+body[data-theme="jiangxi"] { --accent: var(--accent-jiangxi); }
 
 *,
 *::before,
@@ -317,7 +319,7 @@ li + li { margin-top: 0.35rem; }
 }
 
 @media (min-width: 960px) {
-  .dest-grid { grid-template-columns: repeat(4, 1fr); }
+  .dest-grid { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
 }
 
 .fit-card {
