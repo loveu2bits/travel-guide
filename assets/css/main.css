@@ -691,6 +691,48 @@ li + li { margin-top: 0.35rem; }
   color: var(--accent);
 }
 
+/* Day route maps (Leaflet) */
+.day-map {
+  height: 300px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin-top: 0.75rem;
+  background: #e8e4df;
+}
+
+@media (min-width: 800px) {
+  .day-map { height: 340px; }
+}
+
+.map-pin {
+  background: none;
+  border: none;
+}
+
+.map-pin span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font: 700 13px/1 var(--font-body);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.map-pin--opt span {
+  background: #9ca3af;
+}
+
+.map-caption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0.4rem 0 0;
+}
+
 /* Reveal motion */
 .reveal {
   opacity: 0;

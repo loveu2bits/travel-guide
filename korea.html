@@ -11,6 +11,7 @@
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="alternate icon" type="image/png" href="./favicon-180.png">
   <link rel="apple-touch-icon" href="./favicon-180.png">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body data-theme="korea">
@@ -89,6 +90,8 @@
         </ul>
         <p class="muted">🏨 住明洞。今天没有任何预约项目，航班晚点也不慌；早点休息，明天是唯一需要赶 10 点仪式的日子。</p>
       </div>
+      <div class="day-map" id="map-d1"></div>
+      <p class="map-caption">🗺️ ① 仁川机场 →（AREX 直达 43 分钟）→ ② 首尔站（换 4 号线）→ ③ 明洞（酒店 · 采购 · 夜市）</p>
     </section>
 
     <section class="section" id="d2">
@@ -109,6 +112,8 @@
         <img src="assets/images/korea/bukchon.jpg" alt="北村韩屋村的青瓦小巷" loading="lazy" style="border-radius:var(--radius);margin-top:0.75rem">
         <p class="muted" style="margin-top:0.5rem">🏨 住明洞。⚠️ 景福宫<strong>每周二闭宫</strong>（换岗仪式也没有）——如果今天恰逢周二，把本日安排和 D3 上午对调。</p>
       </div>
+      <div class="day-map" id="map-d2"></div>
+      <p class="map-caption">🗺️ ① 景福宫 → ② 土俗村参鸡汤 → ③ 北村韩屋村 → ④ 安国站回明洞（全程步行串联；梨泰院彩蛋在 6 号线上，未画出）</p>
     </section>
 
     <section class="section" id="d3">
@@ -130,6 +135,8 @@
         </ul>
         <p class="muted">🏨 住明洞最后一晚。今天的唯一任务：养精神 + 买齐 + 打包。</p>
       </div>
+      <div class="day-map" id="map-d3"></div>
+      <p class="map-caption">🗺️ ① 明洞 → ② 益善洞（方案 A，地铁 2 站）；灰点虚线 = 方案 B 南大门市场（步行 15 分钟）</p>
     </section>
 
     <section class="section" id="d4">
@@ -155,6 +162,8 @@
         <img src="assets/images/korea/gwangan.jpg" alt="广安大桥夜景" loading="lazy" style="border-radius:var(--radius);margin-top:0.75rem">
         <p class="muted" style="margin-top:0.5rem">🏨 住釜山站。今天主线就是「松岛缆车 + 甘川文化村」两件事，广安里纯属加分项；<strong>往返全部打车，一次 20–30 分钟车费不贵，别把体力花在地铁换乘上</strong>。</p>
       </div>
+      <div class="day-map" id="map-d4"></div>
+      <p class="map-caption">🗺️ 主线：① 釜山站 → ② 松岛缆车 → ③ 甘川文化村（全程打车）；灰点虚线 = 晚上二选一：④ 广安里夜景 / ⑤ 南浦洞海鲜（可以看出广安里有多远）</p>
     </section>
 
     <section class="section" id="d5">
@@ -178,6 +187,8 @@
         <img src="assets/images/korea/haeundae.jpg" alt="海云台沙滩与海岸线" loading="lazy" style="border-radius:var(--radius);margin-top:0.75rem">
         <p class="muted" style="margin-top:0.5rem">🏨 住釜山站。全天只在海云台一个片区活动，步行为主；唯一的硬时间点是 15:30 的胶囊火车。</p>
       </div>
+      <div class="day-map" id="map-d5"></div>
+      <p class="map-caption">🗺️ ① 海云台沙滩 → ② 东柏岛 → ③ 海云台市场 → ④ 尾浦站（15:30 胶囊火车）→ ⑤ 青沙浦；灰色虚线 = 沿海边栈道走回尾浦（2.5 公里）</p>
     </section>
 
     <section class="section" id="d6">
@@ -194,6 +205,8 @@
         </ul>
         <p class="muted">时间账：07:00 的 KTX → 机场缓冲约 3 小时；就算改坐 08:00 的班次，缓冲仍有 2 小时，<strong>不用赶 5 点多的头班车</strong>。铁律只有两条：KTX 票提前买好，当天零游玩、零卡点。</p>
       </div>
+      <div class="day-map" id="map-d6"></div>
+      <p class="map-caption">🗺️ ① 釜山站 →（KTX 约 2.5 小时）→ ② 首尔站（站内机动）→（AREX 直达 43 分钟）→ ③ 仁川机场</p>
     </section>
 
     <section class="section" id="general">
@@ -237,6 +250,8 @@
       </div>
     </div>
   </footer>
+  <script src="assets/vendor/leaflet/leaflet.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/korea-maps.js"></script>
 </body>
 </html>
