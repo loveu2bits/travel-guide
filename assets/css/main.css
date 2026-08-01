@@ -12,6 +12,7 @@
   --accent-fujian: #0369a1;
   --accent-chengyu: #c2410c;
   --accent-jiangxi: #166534;
+  --accent-korea: #be123c;
   --radius: 4px;
   --shadow: 0 12px 40px rgba(28, 25, 23, 0.08);
   --font-display: "Fraunces", "Songti SC", "Noto Serif SC", serif;
@@ -25,6 +26,7 @@ body[data-theme="wuhan"] { --accent: var(--accent-wuhan); }
 body[data-theme="fujian"] { --accent: var(--accent-fujian); }
 body[data-theme="chengyu"] { --accent: var(--accent-chengyu); }
 body[data-theme="jiangxi"] { --accent: var(--accent-jiangxi); }
+body[data-theme="korea"] { --accent: var(--accent-korea); }
 
 *,
 *::before,
