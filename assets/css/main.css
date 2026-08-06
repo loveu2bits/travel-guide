@@ -13,6 +13,9 @@
   --accent-chengyu: #c2410c;
   --accent-jiangxi: #166534;
   --accent-korea: #be123c;
+  --accent-yunnan: #15803d;
+  --accent-yunnan-dali: #0e7490;
+  --accent-yunnan-tengchong: #a16207;
   --radius: 4px;
   --shadow: 0 12px 40px rgba(28, 25, 23, 0.08);
   --font-display: "Fraunces", "Songti SC", "Noto Serif SC", serif;
@@ -27,6 +30,9 @@ body[data-theme="fujian"] { --accent: var(--accent-fujian); }
 body[data-theme="chengyu"] { --accent: var(--accent-chengyu); }
 body[data-theme="jiangxi"] { --accent: var(--accent-jiangxi); }
 body[data-theme="korea"] { --accent: var(--accent-korea); }
+body[data-theme="yunnan"] { --accent: var(--accent-yunnan); }
+body[data-theme="yunnan-dali"] { --accent: var(--accent-yunnan-dali); }
+body[data-theme="yunnan-tengchong"] { --accent: var(--accent-yunnan-tengchong); }
 
 *,
 *::before,

@@ -1,3 +1,17 @@
+# 旅游攻略合集
+
+`index.html` 是总入口（行程卡片列表）。每个行程一个「几选一」对比 hub + 各候选详情页：
+
+| 行程 | hub | 详情页 |
+|---|---|---|
+| 2026 国庆云南 · 二选一（妈妈+女儿+儿子，6 天 5 晚，休闲/人少/民宿优先） | `yunnan.html` | `yunnan-dali.html`（大理+沙溪）、`yunnan-tengchong.html`（腾冲） |
+| 2026 十一 · 五选一（淄博出发两人，5 天 4 晚，美食优先） | `shiyi-5x1.html` | `shanxi.html` 等 5 页 |
+| 韩国 6 天（首尔+釜山） | `korea.html`（单页） | — |
+
+云南页配图来自 Wikimedia Commons（公有领域 / CC BY-SA），署名明细见 `assets/images/yunnan-credits.txt`。
+
+---
+
 # 2026 十一假期 · 四选一决策页
 
 > 淄博出发 · 两人同行 · 10.2（周五）— 10.6（周二）5 天 4 晚
