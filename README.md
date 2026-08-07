@@ -4,6 +4,7 @@
 
 | 行程 | hub | 详情页 |
 |---|---|---|
+| 福州 · 周末特种兵（北京出发，周六早班机，2 天 1 晚不请假） | `fuzhou-weekend.html`（单页） | — |
 | 2026 国庆云南 · 二选一（妈妈+女儿+儿子，6 天 5 晚，休闲/人少/民宿优先） | `yunnan.html` | `yunnan-dali.html`（大理+沙溪）、`yunnan-tengchong.html`（腾冲） |
 | 2026 十一 · 五选一（淄博出发两人，5 天 4 晚，美食优先） | `shiyi-5x1.html` | `shanxi.html` 等 5 页 |
 | 韩国 6 天（首尔+釜山） | `korea.html`（单页） | — |
